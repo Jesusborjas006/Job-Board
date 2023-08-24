@@ -1,0 +1,32 @@
+export const data = [
+  {
+    id: 1,
+    title: "Senior Web Developer",
+    company: "Netflix",
+    location: "Remote",
+    salary: 200000,
+    job: "Full Time",
+    level: "Senior",
+    description: "We are looking for a dedicated senior web developer",
+  },
+  {
+    id: 2,
+    title: "Software Engineer",
+    company: "Google",
+    location: "Mountain View, CA",
+    salary: 100000,
+    job: "Full Time",
+    level: "Junior",
+    description: "We are looking for a software engineer",
+  },
+  {
+    id: 3,
+    title: "Google Engineer",
+    company: "Google",
+    location: "Mountain View, CA",
+    salary: 150000,
+    job: "Full Time",
+    level: "Senior",
+    description: "We are looking for a Google engineer",
+  },
+];
