@@ -21,8 +21,7 @@ const ListingContainer = ({ allJobListings }: ListingContainerProps) => {
     />
   ));
   return (
-    <section className="border border-red-600 text-center">
-      <h2>Job Listing Container</h2>
+    <section className="max-w-[1600px] p-8 mx-auto grid grid-cols-1 min-[870px]:grid-cols-2 2xl:grid-cols-3 gap-4">
       {jobElements}
     </section>
   );
